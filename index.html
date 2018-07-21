@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+	<title>Vanilla JS Tabs</title>
+
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+	<div class="tabs">
+		<nav class="tabs__nav">
+			<ul>
+				<li class="is--active">
+					<a href="#tab-1">Title 1</a>
+				</li>
+
+				<li>
+					<a href="#tab-2">Title 2</a>
+				</li>
+				
+				<li>
+					<a href="#tab-3">Title 3</a>
+				</li>
+			</ul>
+		</nav><!-- /.tabs__nav -->
+
+		<div class="tabs__body">
+			<div id="tab-1" class="tab is--active">Tab 1 Content</div><!-- /.tab -->
+			
+			<div id="tab-2" class="tab">Tab 2 Content</div><!-- /.tab -->
+			
+			<div id="tab-3" class="tab">Tab 3 Content</div><!-- /.tab -->
+		</div><!-- /.tabs__body -->
+	</div><!-- /.tabs -->
+	
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
